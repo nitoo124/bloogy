@@ -15,8 +15,8 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen); // Toggle function
 
   return (
-    <div className="w-full bg-white/70 h-20 shadow-md sticky top-0 backdrop-blur-2xl transition-colors z-50">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 lg:px-0 h-full">
+    <div className="w-full bg-white/70 h-20 shadow-md sticky top-0 backdrop-blur-2xl transition-colors z-50 ">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 lg:px-0 h-full text-black">
         <Link href={"/"}>
           <h2 className="uppercase text-3xl font-extrabold">Blog.</h2>
         </Link>
