@@ -55,7 +55,7 @@ function Comment({ params }: any) {
   };
 
   return (
-    <main className="mb-10 max-w-screen-xl mx-auto">
+    <main className="mb-10 max-w-screen-xl mx-auto bg-white ">
       {/* ...existing blog content */}
 
       {/* Comment Section */}

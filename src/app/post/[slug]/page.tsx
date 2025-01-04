@@ -43,7 +43,7 @@ async function BlogPage({ params }: slug) {
   });
 
   return (
-    <main className="mb-10 max-w-screen-xl mx-auto bg-white text-black">
+    <main className="mb-10 max-w-screen-xl mx-auto bg-white ">
       <div className="flex items-center mb-10 ">
         {/* Main image */}
         <div className="w-full md:w-2/3">
