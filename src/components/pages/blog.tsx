@@ -9,7 +9,7 @@ interface Props {
 
 const BlogContent = ({ posts }: Props) => {
   return (
-    <div className=" h-full max-w-screen-xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 py-10 px-5 overflow-hidden">
+    <div className="bg-white h-full max-w-screen-xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 py-10 px-5 overflow-hidden">
       {posts.map((post) => {
         return (
           <Link
