@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-md absolute top-20 left-0 w-full z-40">
+        <div className="md:hidden bg-white shadow-md absolute top-20 left-0 w-full z-40 text-black">
           <ul className="flex flex-col items-center gap-4 py-4">
             {navigation.map((item) => (
               <li key={item?.title}>
